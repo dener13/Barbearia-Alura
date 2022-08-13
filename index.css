@@ -199,8 +199,12 @@ footer {
 
 	.lista-beneficios, .imagem-beneficios{
 		width: 100%;
-		padding: 50px;
+		padding: 10px;
 		
+	}
+
+	.imagem-beneficios{
+		box-shadow: none;
 	}
 }
 

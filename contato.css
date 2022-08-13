@@ -101,3 +101,27 @@ form label, form legend {
     transform: scale(1.02);
 }
 
+
+@media screen and (max-width: 480px){
+
+    .caixa{
+        width: auto;
+    }
+
+    h1{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+
+    form{
+        padding: 10px;
+    }
+
+    .botao-enviar{
+        width: auto;
+    }
+}
+
