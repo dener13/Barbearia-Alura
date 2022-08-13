@@ -117,12 +117,14 @@ footer {
     .produtos {
         width: auto;
         text-align: center;
+        padding: 20px;
     }
 
     .produtos li{
         display: block;
         text-align:center;
         width: auto;
+        
     }
 
     h1{
