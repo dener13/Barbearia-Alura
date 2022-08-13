@@ -106,3 +106,34 @@ footer {
     color: white;
     font-size: 15px;
 }
+
+
+@media screen and (max-width: 480px){
+
+    .header, .caixa{
+        width: auto;
+    }
+
+    .produtos {
+        width: auto;
+        text-align: center;
+    }
+
+    .produtos li{
+        display: block;
+        text-align:center;
+        width: auto;
+    }
+
+    h1{
+		text-align: center;
+	}
+
+    nav{
+        position: static;
+    }
+
+    
+
+    
+}
