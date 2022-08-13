@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --font1: 'Montserrat', sans-serif;
+}
+
+*{
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+body{
+	background-image: linear-gradient(to bottom, white 50%, rgb(107, 107, 107));
+}
+
+
+
+header{
+    background-color: #CCCCCC;
+    padding: 20px 0px;
+}
+
+main{
+	width: 80%;
+	margin:auto;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.banner {
+	width:100%;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a{
+    font-family: var(--font1);
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: chocolate;
+    text-shadow: 0px 1px 1px rgb(226, 113, 32);
+}
+
+.principal{
+	/*background: #CCCCCC;*/
+	padding: 30px;
+	margin: 0px auto;
+	width: 70%;
+}
+
+.principal p{
+	text-align: center;
+	margin-bottom: 2em;
+	padding: 10px;
+}
+
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-style: italic;
+}
+
+
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 1em;
+	clear: left;
+}
+
+#missao {
+	font-size: 20px
+}
+
+.itens {
+	font-style: italic;
+	line-height: 2.5;
+}
+
+.itens:first-child{
+	font-weight: bold;
+}
+
+.itens:before{
+	content: "★ ";
+}
+
+.beneficios {
+	padding: 20px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.lista-beneficios {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 1%;
+	padding: 100px;
+	color: black;
+	border-radius: 10px;
+	transition: 400ms;
+}
+
+.lista-beneficios:hover{
+	background-color: black;
+	color: white;
+}
+
+.imagem-beneficios {
+	width: 50%;
+	border-radius: 10px;
+	opacity: 80%;
+	transition: 400ms;
+	box-shadow: 25px 25px 10px black;
+}
+
+.imagem-beneficios:hover{
+	opacity: 100%;
+	
+}
+
+
+
+.conteudo-beneficios{
+	margin: auto;
+	
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    background: url('imagens/bg.jpg');
+    padding: 40px 0px;
+    margin-top: 20px
+}
+
+.copyright{
+    color: white;
+    font-size: 15px;
+}
+
+
+
+.utensilios{
+	width: 25%;
+	float: left;
+	padding-right: 20px;
+	border-radius: 100px;
+}
+
+.mapa{
+	padding: 3em 0;
+}
+
+.mapa p{
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+/*config para celular*/
+@media screen and (max-width: 480px) {
+	
+	.caixa, .principal, .conteudo-beneficios, .mapa{
+		width: auto;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios{
+		width: 100%;
+		padding: 50px;
+		
+	}
+}
+
+
